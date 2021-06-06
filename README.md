@@ -9,7 +9,7 @@ This is the implement for paper ***Dual-Refinement: Joint Label and Feature Refi
  - Pytorch 1.1.0
  
 ```shell
-git clone https://github.com/MM20Anonymous/Dual-Refinement.git
+git clone https://github.com/SikaStar/Dual-Refinement.git
 cd Dual-Refinement/
 pip install -r requirements.txt
 ```
