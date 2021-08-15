@@ -1,5 +1,5 @@
 # Dual-Refinement
-This is the implement for paper ***Dual-Refinement: Joint Label and Feature Refinement for Unsupervised Domain Adaptive Person Re-Identification***.
+This is the official implement for paper ***Dual-Refinement: Joint Label and Feature Refinement for Unsupervised Domain Adaptive Person Re-Identification***, which has been published in IEEE Transactions on Image Processing (TIP 2021). [[paper](https://ieeexplore.ieee.org/document/9513260)][[arXiv](https://arxiv.org/abs/2012.13689)]
 
 
 ## Prerequisites
@@ -97,5 +97,18 @@ For example, when evaluating the method **Baseline with both LR and IM-SP**  on 
 sh scripts/test.sh market1501 ./logs/dukemtmcTOmarket1501/Baseline_LR_IM-SP/model_best.pth.tar
 ```
 
-### Acknowledgement
-Our code is based on [open-reid](https://github.com/Cysu/open-reid) and [MMT](https://github.com/yxgeee/MMT). Thanks for [Yixiao Ge](https://geyixiao.com/) (geyixiao831@gmail.com) helping me in some experiments.
+## Acknowledgement
+Our code is based on [open-reid](https://github.com/Cysu/open-reid) and [MMT](https://github.com/yxgeee/MMT). 
+
+## Citation
+If you find our work is useful for your research, please kindly cite our paper.
+
+```
+@article{dai2021dual,
+  title={Dual-Refinement: Joint Label and Feature Refinement for Unsupervised Domain Adaptive Person Re-Identification},
+  author={Dai, Yongxing and Liu, Jun and Bai, Yan and Tong, Zekun and Duan, Ling-Yu},
+  journal={IEEE Transactions on Image Processing},
+  year={2021}
+}
+```
+If you have any questions, please leave an issue or contact me: yongxingdai@pku.edu.cn
